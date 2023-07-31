@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="links">
-        <Link to="/home">shop</Link>
+        <Link to="/shop">shop</Link>
         <Link to="/cart">
           <ShoppingCart size={32} />
         </Link>
